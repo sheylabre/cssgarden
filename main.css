@@ -110,6 +110,12 @@
     height: 200px;
     margin: 0 auto;
 }
+.design-selection p {
+    visibility: hidden;
+}
+.design-selection:hover p {
+    visibility: visible;
+}
 
 
 .design-archives{
@@ -124,6 +130,12 @@
     height: 200px;
     margin: 0 auto;
 }
+.design-archives p {
+    visibility: hidden;
+}
+.design-archives:hover p {
+    visibility: visible;
+}
 
 
 .zen-resources{
@@ -137,5 +149,11 @@
     width: 100%;
     height: 200px;
     margin: 0 auto;
+}
+.zen-resources p {
+    visibility: hidden;
+}
+.zen-resources:hover p {
+    visibility: visible;
 }
 
